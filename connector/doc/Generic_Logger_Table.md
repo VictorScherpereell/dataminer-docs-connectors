@@ -14,13 +14,15 @@ Every element using this connector will have its own unique table in the databas
 
 | Range                | Key Features     | Based on     | System Impact     |
 |----------------------|------------------|--------------|-------------------|
-| 1.0.0.x [SLC Main]   | Initial version. | -            | -                 |
+| 1.0.0.x              | Initial version. | -            | -                 |
+| 1.0.1.x [SLC Main]   | Using GenericLoggerTable Nuget 1.2.x | 1.0.0.x      | InterApp communication no longer supported. |
 
 ### System Info
 
 | Range     | DCF Integration     | Cassandra Compliant     | Linked Components     | Exported Components     |
 |-----------|---------------------|-------------------------|-----------------------|-------------------------|
 | 1.0.0.x   | No                  | Yes                     | -                     | -                       |
+| 1.0.1.x   | No                  | Yes                     | -                     | -                       |
 
 ## Configuration
 
